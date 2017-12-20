@@ -7,8 +7,7 @@
 #You need to know your available subscriptions, to check this execute the following Powershell command:
 #Get-MsolAccountSku
 #Adjust the "Options" to be in line with your subscriptions
-#Amanuyl Ok System Administrator\DevOps 18-12-2017, Last update 19-12-2017
-
+#Amanuyl Ok System Administrator\DevOps 18-12-2017, Last update 20-12-2017
 
 $Usercredential = Get-Credential
 Connect-MsolService -AzureEnvironment AzureCloud -Credential $Usercredential
