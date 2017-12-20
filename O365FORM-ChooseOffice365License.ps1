@@ -4,6 +4,9 @@
 #Afterwards choose the subscription you want to assign, commonly option A is the most used option
 #Exit Script with X and the license will be assigned to the user, to check execute the followin Powershell command:
 #Get-MsolUser -UserPrincipalName "Username" value under license must be set on TRUE. This way you know that the script worked..or check the Office 365 Portal
+#You need to know your available subscriptions, to check this execute the following Powershell command:
+#Get-MsolAccountSku
+#Adjust the "Options" to be in line with your subscriptions
 #Amanuyl Ok System Administrator\DevOps 18-12-2017, Last update 19-12-2017
 
 
